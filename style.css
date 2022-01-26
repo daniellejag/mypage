@@ -18,7 +18,7 @@ h3 {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 70px;
 }
 
 h2 {
@@ -50,7 +50,7 @@ strong {
 .navigation-links {
   display: flex;
   margin-top: 40px;
-  justify-content: center;
+justify-content: center;
 }
 
 .navigation-links a {
@@ -123,4 +123,30 @@ strong {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+img {
+  display: none;
+}
+
+p {
+  margin: 10px 10px 30px 5px;
+}
+
+.app-links a {
+padding: 20px 50px 20px 50px;
+margin: 50px 20px;
+font-size: 17px;
+}
+
+
 }
