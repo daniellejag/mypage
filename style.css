@@ -5,22 +5,18 @@
 }
 
 .introduction {
-
-  background:url(images/woodendesk-four.jpeg) center no-repeat;
- 
-
+background:url(images/woodendesk-four.jpeg) center no-repeat;
 width: 100%;
 margin-bottom: 70px;
- padding: 60px;
-
-  overflow: hidden;
-
+padding: 60px;
+overflow: hidden;
 }
 
  
 
 #intro {
   margin: 22px 70px;
+  text-align: center;
 }
 
 h1,
@@ -170,6 +166,11 @@ background-color: rgba(201, 193, 193, 0.3);
 
 h3 {
   font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
 }
 
 img {
