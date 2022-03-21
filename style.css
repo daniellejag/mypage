@@ -1,32 +1,49 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: rgb(172, 177, 191);
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .introduction {
-  margin: 60px auto;
-  max-width: 800px;
+
+  background:url(images/woodendesk-four.jpeg) center no-repeat;
+ 
+
+width: 100%;
+margin-bottom: 70px;
+ padding: 60px;
+
+  overflow: hidden;
+
 }
 
+ 
+
+#intro {
+  margin: 22px 70px;
+}
 
 h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
+  color: rgb(164, 169, 182);
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 90px;
+  font-weight: 600;
+  
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
+  color: rgb(102, 104, 108);
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 34px;
   opacity: 0.7;
 }
 
@@ -50,27 +67,47 @@ strong {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
-justify-content: center;
+  justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 40px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 12px 24px;
   text-decoration: none;
   text-transform: capitalize;
 }
 
 .contact-link {
-  background: var(--primary-color);
+  border: 7px solid rgba(63, 61, 61, 4%);
+  backdrop-filter: blur(10px);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 .about-link {
+  border: 7px solid rgba(63, 61, 61, 4%);
+  backdrop-filter: blur(13px);
+  box-shadow: var(--box-shadow);
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  font-weight: 600;
+}
+
+
+a:hover { 
+  transition: all 200ms ease-in-out;
+  color:rgb(187, 184, 184);
+}
+
+.about-link:hover {
+transition: all 200ms ease-in-out;
+background-color: rgba(201, 193, 193, 0.3);
+}
+
+.contact-link:hover {
+transition: all 200ms ease-in-out;
+background-color: rgba(201, 193, 193, 0.3);
 }
 
 .homepage-link {
@@ -149,3 +186,7 @@ margin: 50px 20px;
 font-size: 17px;
 }
 }
+
+
+
+
