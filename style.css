@@ -5,14 +5,17 @@
 }
 
 .introduction {
-background:url(images/woodendesk-four.jpeg) center no-repeat;
+background:url(images/darklaptop-three.jpeg) center no-repeat;
 width: 100%;
 margin-bottom: 70px;
 padding: 60px;
 overflow: hidden;
 }
 
- 
+ body {
+   background: rgb(172, 177, 191);
+ }
+
 
 #intro {
   margin: 22px 70px;
@@ -59,6 +62,7 @@ strong {
 
 .about-paragraphs {
   text-align: center;
+  color:rgb(187, 184, 184)
 }
 
 .navigation-links {
@@ -95,6 +99,8 @@ a:hover {
   transition: all 200ms ease-in-out;
   color:rgb(187, 184, 184);
 }
+
+
 
 .about-link:hover {
 transition: all 200ms ease-in-out;
@@ -154,7 +160,8 @@ background-color: rgba(201, 193, 193, 0.3);
 .yoga-link,
 .weather-link,
 .yogurt-link {
-  background: var(--primary-color);
+background : #161922;
+
   box-shadow: var(--box-shadow);
   color: white;
 }
