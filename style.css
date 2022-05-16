@@ -117,8 +117,8 @@ color: #2DA042;
 }
 
 .fa-instagram:hover {
-background: #121FCF;
-background: linear-gradient(to right, #d1ab13 0%, #882a4e 49%, #a92b55db 65%, #541a4c 100%);
+color: #971D72;
+}
 
 -webkit-text-fill-color: transparent;
 }
@@ -178,7 +178,7 @@ background-size: cover;
 }
 
 .aboutpage {
-background: url(images/codedrawing1.jpeg) center no-repeat;
+background: url(images/darklaptop-three.jpeg) center no-repeat;
 height: 500px;
 }
 
