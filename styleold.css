@@ -23,7 +23,7 @@ h3 {
 
 
 h1 {
-  font-size: 7em;
+  font-size: 8em;
 }
 
 h2 {
@@ -42,11 +42,11 @@ strong {
 }
 
 p {
-  padding: 30px;
+  padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 4px;
-  font-size: 38px;
+  font-size: 18px;
   line-height: 1.5;
   text-align: inline;
   color: rgb(77, 89, 129);
@@ -54,9 +54,8 @@ p {
 }
 
 img {
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 30px;
-  background-color: rgba(76, 91, 130, 0.4);
 }
 
 .img-fluid {
@@ -72,9 +71,8 @@ background: #161922;
 overscroll-behavior: none;
 }
 
-
-
-#homepagefooter{
+.fa-brands,
+.fa-solid {
   color: 	#28282B;
   font-size: 40px;
   position: relative;
@@ -82,88 +80,16 @@ overscroll-behavior: none;
   padding: 13px;
 }
 
-
-#homepagefooter:hover {
+.fa-brands:hover,
+.fa-solid:hover {
 transition: all 200ms ease-in-out;
-color:#a2b8ce;
-font-size: 50px;
+color:#b5c1cd;
 }
 
-
-
-
-#aboutfooter {
-  color:white;
-  font-size: 7em;
-  position: relative;
-  top: -3%;
-  overflow: hidden;
-  justify-content: space-between;
-  margin: 17px;
-}
-
-#aboutfooter:hover{
-transition: all 400ms ease-in-out;
-font-size: 10em;
-}
-
-
-.fa-github:hover {
-color: #2DA042;
-}
-
-.fa-linkedin:hover {
- color: #0A65C2;
-}
-
-.fa-instagram:hover {
-color: #971D72;
-}
-
-<<<<<<< HEAD
-.fa-facebook:hover {
-color:#315A94
-=======
-
-.fa-facebook:hover {
-color:#315A94;
->>>>>>> 9997614b9ba3517d1c8266fa4e9bfd941d819eea
-}
-
-.fa-paper-plane:hover {
-color: #af1a0d;
-}
-
-.email {
-  display: block;
-  text-decoration: none;
-  color: rgb(89, 109, 127);
-  opacity: 0.8;
-  background-color: #161922;
-  margin-top: 60px;
-  
-}
-
-
-
-.git-repo {
-  display: block;
-  text-decoration: none;
-  color: rgb(89, 109, 127);
-  opacity: 0.8;
-  background-color: #161922;
-}
-
-.git-repo:hover,
-.email:hover {
-  transition: all 200ms ease-in-out;
-  color: #93a5cf;
-}
 
 .header {
 background-image: linear-gradient(to bottom, #7f8e9a, #919fab, #a2b0bc, #b5c1cd, #C8D6E0);
 }
-
   
 .homepage {
 background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
@@ -174,31 +100,22 @@ background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 background: url(images/bluecomputer3.jpeg) center no-repeat;
 width: 100%;
 overflow: hidden;
-height: 750px;
+height: 700px;
 filter: brightness(1.30);
 background-size: cover;
-
 }
 
 .aboutpage {
-background: url(images/darklaptop-three.jpeg) center no-repeat;
-height: 500px;
-}
-
-
-.aboutpage img {
-border-radius: 0 !important;
-border: 2px solid #161922 !important;
-background: black;
-box-shadow: 11px 19px 20px rgba(0, 0, 0, 0.4) !important;
+background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
 }
 
 .aboutintroduction {
+background: url(images/codedrawing1.jpeg) center no-repeat;
 width: 100%;
-padding: 20px;
+height: 600px;
 overflow: hidden;
+filter: brightness(1.2);
 background-size: cover;
-margin-bottom: -60px;
 }
 
 .projects {
@@ -211,12 +128,8 @@ margin-top: 100px;
 
 .about-paragraphs {
   text-align: center;
-  color: black;
+  color:rgb(187, 184, 184);
   display: flex;
-  font-weight: 800;
-  padding: 40px;
-  margin: 30px;
-  font-size:30px;
 }
 
 .navigation-links {
@@ -248,25 +161,16 @@ background-color: rgba(191, 189, 195, 0.393);
 color: #161922;
 }
 
- #aboutcontact {
+.email-link {
   display: flex;
   justify-content: center;
+  color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
-  color: #8FC3D2;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-  font-weight: 600;
-  margin: 0 234px 0 234px;;
-  padding: 10px;
 }
 
-#aboutcontact:hover {
-  text-decoration: none;
-  transition: all 200ms ease-in-out;
-  font-weight: 600;
-  color: #c7f5ff;
+.email-link:hover {
+  text-decoration: underline;
 }
 
 .app-links a {
@@ -299,18 +203,7 @@ border: 3px solid #161922;
 
 
 
-#contact {
-padding: 20px;
-background: #161922;
-}
 
-#contact h2 {
-padding: 5px;
-color: white;
-margin: 0px 234px 0px 234px;
-font-size: 40px;
-
-}
  
 
 @media (max-width: 576px) {
@@ -323,7 +216,7 @@ h3, h2 {
 }
 
 h1 {
-font-size: 68px;
+font-size: 78px;
 }
 
 
