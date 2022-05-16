@@ -5,8 +5,10 @@
 }
 
 
+
 body {
-  overflow-x: hidden;
+overflow-x: hidden;
+overscroll-behavior-y: none; 
 }
 
 h1,
@@ -18,16 +20,19 @@ h3 {
   font-weight: 600;
 }
 
+
+
 h1 {
-  font-size: 90px; 
+  font-size: 8em;
 }
 
 h2 {
   font-size: 38px;
+  padding-top: 100px;
 }
 
 h3 {
-font-size: 33px;
+  font-size: 33px;
 }
 
 strong {
@@ -38,6 +43,8 @@ strong {
 
 p {
   padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -45,6 +52,37 @@ p {
   color: rgb(77, 89, 129);
   font-weight: 500;
 }
+
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+footer {
+width: 100%;
+height: 300px;
+margin: 0;
+text-align: center;
+background: #161922;
+overscroll-behavior: none;
+}
+
+.fa-brands,
+.fa-solid {
+  color: 	#28282B;
+  font-size: 40px;
+  position: relative;
+  top: 40%;
+  padding: 13px;
+}
+
+.fa-brands:hover,
+.fa-solid:hover {
+transition: all 200ms ease-in-out;
+color:#b5c1cd;
+}
+
 
 .header {
 background-image: linear-gradient(to bottom, #7f8e9a, #919fab, #a2b0bc, #b5c1cd, #C8D6E0);
@@ -55,13 +93,11 @@ background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 }
 
 
-
-
 .introduction {
 background: url(images/bluecomputer3.jpeg) center no-repeat;
 width: 100%;
 overflow: hidden;
-height: 600px;
+height: 700px;
 filter: brightness(1.30);
 background-size: cover;
 }
@@ -79,6 +115,9 @@ filter: brightness(1.2);
 background-size: cover;
 }
 
+.projects {
+margin-top: 100px;
+}
 
 #intro {
   text-align: center;
@@ -96,27 +135,27 @@ background-size: cover;
 }
 
 .navigation-links a {
-  margin: 40px;
-  border-radius: 30px;
-  padding: 12px 24px;
+  margin: 40px 50px;
+  padding: 15px 50px 15px 50px;
+  border-radius: 5px;
   text-decoration: none;
   text-transform: capitalize;
 }
 
+
 .contact-link,
 .about-link {
-  border: 7px solid rgba(137, 50, 177, 0.04);
-  backdrop-filter: blur(10px);
-  box-shadow: var(--box-shadow);
-  color: var(--primary-color);
-  font-weight: 600;
+transition: all 200ms ease-in-out;
+background-color: rgba(191, 189, 195, 0.134);
+color: #161922;
 }
+
 
 .contact-link:hover,
 .about-link:hover {
 transition: all 200ms ease-in-out;
-background-color: rgba(201, 193, 193, 0.3);
-color:rgb(187, 184, 184);
+background-color: rgba(191, 189, 195, 0.393);
+color: #161922;
 }
 
 .email-link {
@@ -131,10 +170,6 @@ color:rgb(187, 184, 184);
   text-decoration: underline;
 }
 
-#contact {
- padding: 50px;
-}
-
 .app-links a {
   margin: 20px;
   border-radius: 4px;
@@ -145,13 +180,28 @@ color:rgb(187, 184, 184);
 
 .yoga-link,
 .weather-link,
-.yogurt-link {
+.yogurt-link,
+.contact-link,
+.about-link {
 background : #161922;
 box-shadow: var(--box-shadow);
 color: white;
 }
 
+.yoga-link:hover,
+.weather-link:hover,
+.yogurt-link:hover {
+transition: all 200ms ease-in-out;
+opacity: 90%;
+background-color: rgba(191, 189, 195, 0.134);
+color: #161922;
+border: 3px solid #161922;
+}
 
+
+
+
+ 
 
 @media (max-width: 576px) {
   body {
@@ -163,9 +213,9 @@ h3, h2 {
 }
 
 h1 {
-  font-size: 40px;
-  margin-bottom: 15px;
+font-size: 78px;
 }
+
 
 img {
   display: none;
@@ -181,15 +231,8 @@ margin: 50px 20px;
 font-size: 17px;
 }
 
-.introduction,
-.aboutintroduction {
-  height:400px;
-}
 
 .navigation-links {
-  display: block;
-  margin: 0 auto;
+font-size: 17px;
 }
-
-
 }
