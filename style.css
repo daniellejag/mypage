@@ -58,6 +58,9 @@ img {
   margin-bottom: 30px;
 }
 
+.img-fluid {
+  border-radius: 30px !important;
+}
 
 footer {
 width: 100%;
